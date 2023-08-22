@@ -52,12 +52,14 @@ build cmake_object_order_depends_target_ExerciseEveryday: phony || CMakeFiles/Ex
 build CMakeFiles/ExerciseEveryday.dir/main.cpp.obj: CXX_COMPILER__ExerciseEveryday_Debug D$:/CPP/ExerciseEveryday/main.cpp || cmake_object_order_depends_target_ExerciseEveryday
   DEP_FILE = CMakeFiles\ExerciseEveryday.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CPP/ExerciseEveryday/String
   OBJECT_DIR = CMakeFiles\ExerciseEveryday.dir
   OBJECT_FILE_DIR = CMakeFiles\ExerciseEveryday.dir
 
 build CMakeFiles/ExerciseEveryday.dir/String/MyString.cpp.obj: CXX_COMPILER__ExerciseEveryday_Debug D$:/CPP/ExerciseEveryday/String/MyString.cpp || cmake_object_order_depends_target_ExerciseEveryday
   DEP_FILE = CMakeFiles\ExerciseEveryday.dir\String\MyString.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CPP/ExerciseEveryday/String
   OBJECT_DIR = CMakeFiles\ExerciseEveryday.dir
   OBJECT_FILE_DIR = CMakeFiles\ExerciseEveryday.dir\String
 

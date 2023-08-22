@@ -15,6 +15,13 @@ void String::append(const String& s)
     return;
 }
 
+void String::append(const char* s)
+{
+    strcat(this->str, s);
+    this->len = strlen(this->str);
+    return;
+}
+
 void String::push_back(const char ch)
 {
     strcat(this->str, &ch);
