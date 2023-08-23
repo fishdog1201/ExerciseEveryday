@@ -46,3 +46,5 @@ private:
     int len;
     static int string_nums;
 };
+
+int test_string();

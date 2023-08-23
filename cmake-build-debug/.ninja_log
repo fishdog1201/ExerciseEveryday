@@ -1,5 +1,9 @@
 # ninja log v5
-0	355	7144156238118173	CMakeFiles/ExerciseEveryday.dir/main.cpp.obj	c5d605938c4a6c98
-6	359	7144156238138803	CMakeFiles/ExerciseEveryday.dir/String/MyString.cpp.obj	37d3ae4d2d81db50
-3	323	7144157669187440	CMakeFiles/ExerciseEveryday.dir/String/MyString.cpp.obj	37d3ae4d2d81db50
-323	441	7144157670342368	ExerciseEveryday.exe	a36b6833d87d93c4
+7	347	7144161926164108	CMakeFiles/ExerciseEveryday.dir/main.cpp.obj	c5d605938c4a6c98
+313	431	7144162414415282	ExerciseEveryday.exe	9d4db1931fb5fd5f
+3	308	7144162413224179	CMakeFiles/ExerciseEveryday.dir/String/TestString.cpp.obj	cdbe361c7ba64f37
+3	370	7144161926398937	CMakeFiles/ExerciseEveryday.dir/String/MyString.cpp.obj	37d3ae4d2d81db50
+13	388	7145042428104277	CMakeFiles/ExerciseEveryday.dir/String/TestString.cpp.obj	fef970b1949fd326
+9	389	7145042428114278	CMakeFiles/ExerciseEveryday.dir/String/MyString.cpp.obj	1baa350e656813af
+3	344	7145042906696305	CMakeFiles/ExerciseEveryday.dir/main.cpp.obj	ad7c070889ef88d8
+344	493	7145042908169478	ExerciseEveryday.exe	9d4db1931fb5fd5f

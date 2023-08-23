@@ -52,14 +52,21 @@ build cmake_object_order_depends_target_ExerciseEveryday: phony || CMakeFiles/Ex
 build CMakeFiles/ExerciseEveryday.dir/main.cpp.obj: CXX_COMPILER__ExerciseEveryday_Debug D$:/CPP/ExerciseEveryday/main.cpp || cmake_object_order_depends_target_ExerciseEveryday
   DEP_FILE = CMakeFiles\ExerciseEveryday.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -ID:/CPP/ExerciseEveryday/String
+  INCLUDES = -ID:/CPP/ExerciseEveryday/String -ID:/CPP/ExerciseEveryday/smart_pointer
   OBJECT_DIR = CMakeFiles\ExerciseEveryday.dir
   OBJECT_FILE_DIR = CMakeFiles\ExerciseEveryday.dir
 
 build CMakeFiles/ExerciseEveryday.dir/String/MyString.cpp.obj: CXX_COMPILER__ExerciseEveryday_Debug D$:/CPP/ExerciseEveryday/String/MyString.cpp || cmake_object_order_depends_target_ExerciseEveryday
   DEP_FILE = CMakeFiles\ExerciseEveryday.dir\String\MyString.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -ID:/CPP/ExerciseEveryday/String
+  INCLUDES = -ID:/CPP/ExerciseEveryday/String -ID:/CPP/ExerciseEveryday/smart_pointer
+  OBJECT_DIR = CMakeFiles\ExerciseEveryday.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExerciseEveryday.dir\String
+
+build CMakeFiles/ExerciseEveryday.dir/String/TestString.cpp.obj: CXX_COMPILER__ExerciseEveryday_Debug D$:/CPP/ExerciseEveryday/String/TestString.cpp || cmake_object_order_depends_target_ExerciseEveryday
+  DEP_FILE = CMakeFiles\ExerciseEveryday.dir\String\TestString.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/CPP/ExerciseEveryday/String -ID:/CPP/ExerciseEveryday/smart_pointer
   OBJECT_DIR = CMakeFiles\ExerciseEveryday.dir
   OBJECT_FILE_DIR = CMakeFiles\ExerciseEveryday.dir\String
 
@@ -71,7 +78,7 @@ build CMakeFiles/ExerciseEveryday.dir/String/MyString.cpp.obj: CXX_COMPILER__Exe
 #############################################
 # Link the executable ExerciseEveryday.exe
 
-build ExerciseEveryday.exe: CXX_EXECUTABLE_LINKER__ExerciseEveryday_Debug CMakeFiles/ExerciseEveryday.dir/main.cpp.obj CMakeFiles/ExerciseEveryday.dir/String/MyString.cpp.obj
+build ExerciseEveryday.exe: CXX_EXECUTABLE_LINKER__ExerciseEveryday_Debug CMakeFiles/ExerciseEveryday.dir/main.cpp.obj CMakeFiles/ExerciseEveryday.dir/String/MyString.cpp.obj CMakeFiles/ExerciseEveryday.dir/String/TestString.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ExerciseEveryday.dir
